@@ -4,7 +4,7 @@ public class Banco {
 
     public static void main(String[] args) {
 
-        Candidato[] deputadosFederais = new Candidato[10];
+        Candidato[] deputadosFederais = new Candidato[5];
 
         Candidato bibo = new Candidato();
         bibo.nome = "Bibo Nunes";
@@ -17,6 +17,10 @@ public class Banco {
         Candidato ustra = new Candidato();
         ustra.nome = "Coronel Ustra";
         ustra.numero = 2212;
+
+        Candidato jesse = new Candidato();
+        jesse.nome = "Jessé Sangalli";
+        jesse.numero = 2230;
 
     }
 }

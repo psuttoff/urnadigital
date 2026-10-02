@@ -61,5 +61,12 @@ public class Banco {
         tatsch.nome = "Cláudio Tatsch";
         tatsch.numero = 22034;
 
+        deputadosEstaduais[0] = martim;
+        deputadosEstaduais[1] = zucco;
+        deputadosEstaduais[2] = nadia;
+        deputadosEstaduais[3] = lara;
+        deputadosEstaduais[4] = cherini;
+        deputadosEstaduais[5] = tatsch;
+
     }
 }

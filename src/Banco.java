@@ -8,5 +8,8 @@ public class Banco {
         bibo.nome = "Bibo Nunes";
         bibo.numero = 2200;
 
+        Candidato marianalescano = new Candidato();
+        marianalescano.nome = "Mariana Lescano";
+        bibo.numero = 1100;
     }
 }

@@ -35,5 +35,11 @@ public class Banco {
         deputadosFederais[4] = victorino;
         deputadosFederais[5] = any;
 
+        Candidato[] deputadosEstaduais = new Candidato[6];
+
+        Candidato martim = new Candidato();
+        martim.nome = "Capitão Martim";
+        martim.numero = 10122;
+
     }
 }

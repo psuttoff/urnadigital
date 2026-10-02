@@ -68,5 +68,10 @@ public class Banco {
         deputadosEstaduais[4] = cherini;
         deputadosEstaduais[5] = tatsch;
 
+        Candidato[] senadores = new Candidato[2];
+
+        Candidato marcel = new Candidato();
+        marcel.nome = "Marcel Van Hattem";
+        marcel.numero = 300;
     }
 }

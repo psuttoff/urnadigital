@@ -80,5 +80,14 @@ public class Banco {
 
         senadores[0] = marcel;
         senadores[1] = sanderson;
+
+        Candidato[] governadores = new Candidato[1];
+
+        Candidato zucco = new Candidato();
+        zucco.nome = "Luciano Zucco";
+        zucco.numero = 22;
+
+        governadores[0] = zucco;
+
     }
 }

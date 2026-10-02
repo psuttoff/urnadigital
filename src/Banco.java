@@ -87,7 +87,7 @@ public class Banco {
         gzucco.nome = "Luciano Zucco";
         gzucco.numero = 22;
 
-        governadores[0] = zucco;
+        governadores[0] = gzucco;
 
         Candidato[] presidentes = new Candidato[1];
 

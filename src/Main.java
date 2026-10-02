@@ -70,7 +70,21 @@ public class Main{
     }
 
 
+    System.out.println("Governador(a)");
+    System.out.print("Digite seu voto: ");
+    int votoGovernador = leitura.nextInt();
 
+    for (int i = 0; i < Banco.governadores.length; i++) {
+
+        if (Banco.governadores[i].numero == votoGovernador) {
+
+            System.out.println("Candidato:");
+            System.out.println(Banco.governadores[i].nome);
+            System.out.println("Vice: " + Banco.governadores[i].vice);
+            System.out.println("Número: " + Banco.governadores[i].numero);
+
+        }
+    }
 
         }
     }

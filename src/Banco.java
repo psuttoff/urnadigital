@@ -2,7 +2,7 @@ public class Banco {
 
     public static void main(String[] args) {
 
-        Candidato[] deputadosFederais = new Candidato[5];
+        Candidato[] deputadosFederais = new Candidato[6];
 
         Candidato bibo = new Candidato();
         bibo.nome = "Bibo Nunes";

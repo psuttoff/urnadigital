@@ -22,5 +22,8 @@ public class Banco {
         jesse.nome = "Jessé Sangalli";
         jesse.numero = 2230;
 
+        Candidato victorino = new Candidato();
+        victorino.nome = "Gustavo Victorino";
+        victorino.numero = 1022;
     }
 }

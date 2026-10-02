@@ -1,5 +1,3 @@
-import java.util.concurrent.Callable;
-
 public class Banco {
 
     public static void main(String[] args) {

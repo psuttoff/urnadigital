@@ -25,5 +25,10 @@ public class Banco {
         Candidato victorino = new Candidato();
         victorino.nome = "Gustavo Victorino";
         victorino.numero = 1022;
+
+        Candidato any = new Candidato();
+        any.nome = "Any Ortiz";
+        any.numero = 1123;
+
     }
 }

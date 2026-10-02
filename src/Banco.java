@@ -89,5 +89,13 @@ public class Banco {
 
         governadores[0] = zucco;
 
+        Candidato[] presidentes = new Candidato[1];
+
+        Candidato flavio = new Candidato();
+        flavio.nome = "Flávio Bolsonaro";
+        flavio.numero = 22;
+
+        presidentes[0] = flavio;
+
     }
 }

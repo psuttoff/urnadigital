@@ -1,8 +1,14 @@
 public class Banco {
 
+    static Candidato[] deputadosFederais = new Candidato[6];
+    static Candidato[] deputadosEstaduais = new Candidato[6];
+    static Candidato[] senadores = new Candidato[2];
+    static Candidato[] governadores = new Candidato[1];
+    static Candidato[] presidentes = new Candidato[1];
+
+
     public static void main(String[] args) {
 
-        Candidato[] deputadosFederais = new Candidato[6];
 
         Candidato bibo = new Candidato();
         bibo.nome = "Bibo Nunes";
@@ -35,7 +41,6 @@ public class Banco {
         deputadosFederais[4] = victorino;
         deputadosFederais[5] = any;
 
-        Candidato[] deputadosEstaduais = new Candidato[6];
 
         Candidato martim = new Candidato();
         martim.nome = "Capitão Martim";
@@ -68,7 +73,6 @@ public class Banco {
         deputadosEstaduais[4] = cherini;
         deputadosEstaduais[5] = tatsch;
 
-        Candidato[] senadores = new Candidato[2];
 
         Candidato marcel = new Candidato();
         marcel.nome = "Marcel Van Hattem";
@@ -81,7 +85,6 @@ public class Banco {
         senadores[0] = marcel;
         senadores[1] = sanderson;
 
-        Candidato[] governadores = new Candidato[1];
 
         Candidato gzucco = new Candidato();
         gzucco.nome = "Luciano Zucco";
@@ -90,7 +93,6 @@ public class Banco {
 
         governadores[0] = gzucco;
 
-        Candidato[] presidentes = new Candidato[1];
 
         Candidato flavio = new Candidato();
         flavio.nome = "Flávio Bolsonaro";

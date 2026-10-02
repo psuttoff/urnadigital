@@ -7,7 +7,7 @@ public class Banco {
     static Candidato[] presidentes = new Candidato[1];
 
 
-    public static void main(String[] args) {
+    public static void carregarCandidatos() {
 
 
         Candidato bibo = new Candidato();

@@ -28,5 +28,12 @@ public class Banco {
         any.nome = "Any Ortiz";
         any.numero = 1123;
 
+        deputadosFederais[0] = bibo;
+        deputadosFederais[1] = mariana;
+        deputadosFederais[2] = ustra;
+        deputadosFederais[3] = jesse;
+        deputadosFederais[4] = victorino;
+        deputadosFederais[5] = any;
+
     }
 }

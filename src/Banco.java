@@ -45,5 +45,17 @@ public class Banco {
         zucco.nome = "Delegado Zucco";
         zucco.numero = 10222;
 
+        Candidato nadia = new Candidato();
+        nadia.nome = "Comandante Nádia";
+        nadia.numero = 22190;
+
+        Candidato lara = new Candidato();
+        lara.nome = "Adriana Lara";
+        lara.numero = 22789;
+
+        Candidato cherini = new Candidato();
+        cherini.nome = "Adri Cherini";
+        cherini.numero = 22222;
+
     }
 }

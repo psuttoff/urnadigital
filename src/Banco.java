@@ -86,6 +86,7 @@ public class Banco {
         Candidato gzucco = new Candidato();
         gzucco.nome = "Luciano Zucco";
         gzucco.numero = 22;
+        gzucco.vice = "Silvana Covatti";
 
         governadores[0] = gzucco;
 
@@ -94,6 +95,7 @@ public class Banco {
         Candidato flavio = new Candidato();
         flavio.nome = "Flávio Bolsonaro";
         flavio.numero = 22;
+        flavio.vice = "Alfredo Gaspar";
 
         presidentes[0] = flavio;
 

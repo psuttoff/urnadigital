@@ -86,5 +86,21 @@ public class Main{
         }
     }
 
+
+    System.out.println("Presidente");
+    System.out.print("Digite seu voto: ");
+    int votoPresidente = leitura.nextInt();
+
+    for (int i = 0; i < Banco.presidentes.length; i++) {
+
+        if (Banco.presidentes[i].numero == votoPresidente) {
+
+            System.out.println("Candidato:");
+            System.out.println(Banco.presidentes[i].nome);
+            System.out.println("Vice: " + Banco.presidentes[i].vice);
+            System.out.println("Número: " + Banco.presidentes[i].numero);
+
+        }
+    }
         }
     }

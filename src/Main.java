@@ -23,20 +23,54 @@ public class Main{
     }
 
 
-        System.out.println("Deputado(a) Estadual");
-        System.out.print("Digite seu voto: ");
-        int votoEstadual = leitura.nextInt();
+    System.out.println("Deputado(a) Estadual");
+    System.out.print("Digite seu voto: ");
+    int votoEstadual = leitura.nextInt();
 
-        for (int i = 0; i < Banco.deputadosEstaduais.length; i++) {
+    for (int i = 0; i < Banco.deputadosEstaduais.length; i++) {
 
-            if (Banco.deputadosEstaduais[i].numero == votoEstadual) {
+        if (Banco.deputadosEstaduais[i].numero == votoEstadual) {
 
-                System.out.println("Candidato:");
-                System.out.println(Banco.deputadosEstaduais[i].nome);
-                System.out.println("Número: " + Banco.deputadosEstaduais[i].numero);
+            System.out.println("Candidato:");
+            System.out.println(Banco.deputadosEstaduais[i].nome);
+            System.out.println("Número: " + Banco.deputadosEstaduais[i].numero);
 
-            }
         }
+    }
+
+
+    System.out.println("Senador(a) 1");
+    System.out.print("Digite seu voto: ");
+    int votoSenador1 = leitura.nextInt();
+
+    for (int i = 0; i < Banco.senadores.length; i++) {
+
+        if (Banco.senadores[i].numero == votoSenador1) {
+
+            System.out.println("Candidato:");
+            System.out.println(Banco.senadores[i].nome);
+            System.out.println("Número: " + Banco.senadores[i].numero);
+
+        }
+    }
+
+    System.out.println("Senador(a) 2");
+    System.out.print("Digite seu voto: ");
+    int votoSenador2 = leitura.nextInt();
+
+    for (int i = 0; i < Banco.senadores.length; i++) {
+
+        if (Banco.senadores[i].numero == votoSenador2) {
+
+            System.out.println("Candidato:");
+            System.out.println(Banco.senadores[i].nome);
+            System.out.println("Número: " + Banco.senadores[i].numero);
+
+        }
+    }
+
+
+
 
         }
     }

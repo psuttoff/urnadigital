@@ -57,5 +57,9 @@ public class Banco {
         cherini.nome = "Adri Cherini";
         cherini.numero = 22222;
 
+        Candidato tatsch = new Candidato();
+        tatsch.nome = "Cláudio Tatsch";
+        tatsch.numero = 22034;
+
     }
 }

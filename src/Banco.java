@@ -78,5 +78,7 @@ public class Banco {
         sanderson.nome = "Ubiratan Sanderson";
         sanderson.numero = 222;
 
+        senadores[0] = marcel;
+        senadores[1] = sanderson;
     }
 }

@@ -73,5 +73,10 @@ public class Banco {
         Candidato marcel = new Candidato();
         marcel.nome = "Marcel Van Hattem";
         marcel.numero = 300;
+
+        Candidato sanderson = new Candidato();
+        sanderson.nome = "Ubiratan Sanderson";
+        sanderson.numero = 222;
+
     }
 }

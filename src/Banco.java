@@ -41,5 +41,9 @@ public class Banco {
         martim.nome = "Capitão Martim";
         martim.numero = 10122;
 
+        Candidato zucco = new Candidato();
+        zucco.nome = "Delegado Zucco";
+        zucco.numero = 10222;
+
     }
 }

@@ -10,6 +10,6 @@ public class Banco {
 
         Candidato marianalescano = new Candidato();
         marianalescano.nome = "Mariana Lescano";
-        bibo.numero = 1100;
+        marianalescano.numero = 1100;
     }
 }

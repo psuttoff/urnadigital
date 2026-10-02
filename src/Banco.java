@@ -1,3 +1,5 @@
+import java.util.concurrent.Callable;
+
 public class Banco {
 
     public static void main(String[] args) {
@@ -11,5 +13,10 @@ public class Banco {
         Candidato mariana = new Candidato();
         mariana.nome = "Mariana Lescano";
         mariana.numero = 1100;
+
+        Candidato ustra = new Candidato();
+        ustra.nome = "Coronel Ustra";
+        ustra.numero = 2212;
+
     }
 }

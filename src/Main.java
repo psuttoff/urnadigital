@@ -6,6 +6,7 @@ public class Main{
 
     Scanner leitura = new Scanner(System.in);
 
+    Banco.carregarCandidatos();
 
     System.out.println("Iniciar Votação");
 
